@@ -1,0 +1,99 @@
+body {
+	background: none no-repeat fixed center center / 100% auto rgba(0, 0, 0, 0);
+}
+
+nav {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+	z-index: 500;
+}
+
+.top-nav {
+	background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
+}
+
+.top-nav ul{
+	padding: 0;
+}
+
+.logo {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.top-nav a {
+	font-size: 0.9em;
+	text-transform:uppercase;
+}
+
+.top-nav .logo a, .top-nav .logo.active-item a{
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1em;
+}
+.top-nav li.logo a , .top-nav .logo{
+	background: none repeat scroll 0 0 #2fcbe0;
+}
+.top-nav .logo a strong {
+	font-size:1.05em;
+	font-weight: 400;
+}
+
+section h2 {
+  font-size: 2.5em;
+  font-weight:300;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.carousel-text {
+    display: block;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    z-index: 999;
+}
+.carousel-text h2 {
+    background: none repeat scroll 0 0 #fff;
+    color: rgb(0, 30, 34);
+    display: inline-block;
+    padding: 0.3125em 0.625em;
+    font-size: 2em;
+}
+
+.carousel-text p {
+  background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0.625em 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+  	body {
+  		background: none repeat scroll 0 0 rgb(0, 30, 34);
+  	}
+  	nav {
+  		background: none repeat scroll 0 0 rgb(0, 30, 34);
+  		line-height: 1em;
+  		position: relative;
+  	}
+
+  	.top-nav .logo {
+  		padding: 1.25em;
+  	}
+  	.top-nav li {
+  		line-height: 3em;
+  	} 
+
+  	ul.top-ul {
+  		padding: 0;
+  	}
+
+  	ul.right.top-ul {
+  		float: none;
+  	}
+}
