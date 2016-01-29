@@ -1,5 +1,5 @@
 body {
-	background: none no-repeat fixed center center / 100% auto rgba(0, 0, 0, 0);
+	background: url("../img/background.jpg") no-repeat fixed center center / 100% auto rgba(0, 0, 0, 0);
 }
 
 nav {
@@ -42,11 +42,55 @@ nav {
 	font-weight: 400;
 }
 
+section h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 section h2 {
   font-size: 2.5em;
   font-weight:300;
   margin: 0;
   text-transform: uppercase;
+}
+
+section p {
+  font-size: 0.8em;
+}
+
+#carousel {
+  background: #fff;
+}
+
+#first-block {
+  background: #fff;
+}
+
+#second-block {
+  background: none no-repeat scroll 0 0 rgba(0, 30, 34, 0.85);
+}
+
+#third-block {
+  background: #fff;
+}
+
+#fourth-block {
+  background: rgb(0, 30, 34);
+}
+
+#carousel .owl-theme .owl-controls {
+  background: none repeat scroll 0 0 rgba(0, 40, 58, 0.53);
+  bottom: 0;
+  margin: 0;
+  padding: 0.625em;
+  position: absolute;
+  width: 100%;
+}
+#first-block, #second-block, #third-block, #fourth-block {
+  text-align: center;
+  padding: 4.5em 0;
 }
 
 .carousel-text {
@@ -70,6 +114,48 @@ section h2 {
   display: inline-block;
   font-size: 1.2em;
   padding: 0.625em 0.8em;
+}
+
+p.subtitile {
+  color: #999;
+  margin: 0 0 5em;
+}
+
+#first-block i {
+  background: none repeat scroll 0 0 #2fcbe0;
+  border-radius: 100px;
+  color: #fff;
+  display: block;
+  line-height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+#second-block p {
+  color: #fff;
+}
+
+#fourth-block h2 {
+  color: #fff;
+}
+
+#fourth-block p {
+  color: #fff;
+}
+
+a.button {
+  background: none repeat scroll 0 0 #2fcbe0;
+  border:0 none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding: 0.625em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer {
+  background: none repeat scroll 0 0 #2fcbe0;
+  padding: 1.5em 0;
 }
 
 @media screen and (max-width: 768px) {
